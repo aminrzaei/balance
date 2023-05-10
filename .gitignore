@@ -7,6 +7,7 @@ pids
 *.pid
 *.seed
 
+
 # Coverage directory used by tools like istanbul
 coverage
 .eslintcache
@@ -27,3 +28,5 @@ npm-debug.log.*
 *.css.d.ts
 *.sass.d.ts
 *.scss.d.ts
+
+backup
