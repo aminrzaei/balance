@@ -1,0 +1,33 @@
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../../assets/fonts/dana/woff2/dana-bold.woff2') format('woff2'),
+    url('../../assets/fonts/dana/woff/dana-bold.woff') format('woff');
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/dana/woff2/dana-regular.woff2') format('woff2'),
+    url('../../assets/fonts/dana/woff/dana-regular.woff') format('woff');
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl !important;
+  height: 100vh;
+  font-family: dana, 'dana', Tahoma, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  text-align: center !important ;
+}
